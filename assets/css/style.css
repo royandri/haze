@@ -1,0 +1,155 @@
+body {
+    background-image: url("http://localhost/haze/assets/images/bg9.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+a{
+    color: white !important;
+}
+
+.isicuaca {
+    margin-top :20px;
+    -webkit-box-shadow:0 2px 4px rgba(0,0,0,.04);
+    box-shadow:0 2px 4px rgba(0,0,0,.04);
+}
+
+.isi {
+    background-image: url("http://localhost/haze/assets/images/weather-bg2.jpg");
+    background-position: top;
+    border-radius: 20px 20px 0 0 !important;
+    color: white;
+    height: 400px;
+
+}
+
+.isicard {
+    border-radius: 20px !important;
+}
+
+.info-waktu p{
+    margin-top: -28px;
+    margin-left: 90px;
+    font-size: 14px;
+}
+
+.temp{
+    font-weight: lighter;
+    font-size: 50pt;
+    margin-top: 40%;
+    background-position-x: center;
+    margin-left : -120px;
+}
+
+.gambar-cuaca {
+    margin-top : -160px;
+    margin-left: 80px;
+}
+
+.gambar-cuaca img{
+    width: 100px;
+    opacity: 0.9;
+}
+
+.info-humm {
+    margin-left:37%;   
+    margin-top: -47px;
+}
+
+.info-wind {
+    margin-left: 77%;
+    margin-top: -47px;
+}
+
+.datacuaca {
+    border-right: 0px;
+}
+
+
+@media (min-width: 768px) {
+    .isicuaca {
+        margin-top :20px;
+        width:900px;
+        margin-left:auto;
+        margin-right:auto;
+        -webkit-box-shadow:0 2px 4px rgba(0,0,0,.04);
+        box-shadow:0 2px 4px rgba(0,0,0,.04)
+    }
+    
+    .isicard {
+        width: 900px;
+        border-radius: 20px !important;
+    }
+    
+    .isi {
+        background-image: url("http://localhost/haze/assets/images/weather-bg2.jpg");
+        background-position: center center;
+        background-size: 900px;
+        background-repeat: no-repeat;
+        height: 300px;
+        border-radius: 20px 20px 0 0 !important;
+        color: white;
+    
+    }
+    
+    .pre-cuaca img{
+        height: 100px;
+    }
+    
+    .temp{
+        margin-top:40px;
+        font-size: 110px; 
+        margin-left: 30px;
+    }
+    
+    .cuaca{
+        font-size: 21px;
+        margin-top: -40px;
+        /* margin-left: -45px; */
+        letter-spacing: 5px
+    }
+    
+    .gambar-cuaca{
+        margin-left: 230px;
+        margin-top: 20px;
+    }
+    
+    .gambar-cuaca img{
+        height: 100px;
+        opacity: 0.9;
+        
+    }
+    
+    .kota{
+        font-size: 30px;
+        margin-left: 230px;
+        margin-top: 55px;
+        letter-spacing: 5px;
+    }
+    
+    .info-waktu p{
+        margin-top: -28px;
+        margin-left: 90px;
+        font-size: 14px;
+    }
+
+    .info-humm {
+        margin-left: 0%;   
+        margin-top: 0px;
+    }
+    
+    .info-wind {
+        margin-left: 0%;
+        margin-top: 0px;
+    }
+
+    .hr-mobile {
+        display: none;
+    }
+
+    .datacuaca {
+        border-right: 1px solid black;
+    }
+}

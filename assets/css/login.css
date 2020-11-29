@@ -1,0 +1,59 @@
+body {
+  background-color: #000;
+}
+
+.utama {
+  margin-top: 14em;
+}
+
+
+.kiri {
+  background-color: #2B244D;
+  color: white;
+}
+
+.kanan {
+  background-color: #F8F8F8;
+}
+
+.kanan h4 {
+  text-align: left;
+  color: #44C7F4;
+}
+
+.formlogin {
+  margin-left: 30PX;
+  margin-right: 30PX;
+}
+
+
+.footer {
+  text-align: center;
+  color: white;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #F8F8F8;
+}
+
+@media (min-width: 992px) { 
+  .box {
+    border-bottom-left-radius: 2%;
+    border-top-left-radius: 2%;
+  }
+      
+  .box2 {
+    border-bottom-right-radius: 2%;
+    border-top-right-radius: 2%;
+  }
+
+  .kiri {
+    height: 300px;
+  }
+
+  .kanan {
+    height: 300px;
+  }
+    
+}
